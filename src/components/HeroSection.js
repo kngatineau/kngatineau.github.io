@@ -40,7 +40,7 @@ function HeroSection() {
             </h3>
             <p id="content" className="hero-text">
               Hi! 👋 My name is Kaitlyn and I am a developer that is originally
-              from the US but now calls Canada my home. I enjoy the little
+              from the US but now calls Canada home. I enjoy the little
               things in life; such as that first sip of coffee each morning or
               finally squashing a small bug in a program. Please reach out— I
               would love to connect and chat all things programming.
