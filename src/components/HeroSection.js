@@ -43,7 +43,7 @@ function HeroSection() {
               from the US but now calls Canada my home. I enjoy the little
               things in life; such as that first sip of coffee each morning or
               finally squashing a small bug in a program. Please reach out— I
-              would love connect and chat all things programming.
+              would love to connect and chat all things programming.
             </p>
 
             <div className="button-container">
