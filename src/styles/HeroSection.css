@@ -1,0 +1,70 @@
+* {
+    font-family: 'Poppins', sans-serif; 
+}
+#hero-section {
+    display: flex;
+    height: 50vh;
+
+  }
+  
+  #hero-section-container {
+    margin: auto;
+    margin-top: 100px;
+    width: 950px;
+    height: 370px;
+  }
+
+  #portrait {
+    border: 10px solid rgb(215, 215, 215, .2);
+    width: 350px;
+    display: block;
+    position: relative;
+    border-radius: 1000px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;  
+  }
+  #portrait:hover {
+    animation: pulse .7s alternate ease-in-out;
+
+  }
+  #portrait-container {
+    position: relative;
+    float: left;
+  }
+  #hero-section-text-container {
+    margin: auto;
+    display: flex;
+    width: 550px;
+    height: inherit;
+    float: right;
+  }
+  #hero-section-text {
+    width: inherit;
+    height: auto;
+    margin: auto;
+    
+  }
+  .hero-text {
+    margin: 10px;
+  }
+  #title {
+    margin-top: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  #job-title {
+    margin-top: 20px;
+
+  }
+  #job-title, #location {
+    color: rgb(172, 172, 172);
+    font-weight:200;
+    margin-bottom: 0px;
+  }
+  #location {
+    color: rgb(102, 102, 102);
+  }
+#pin {
+  width: 20px;
+  margin-right: 2px;
+  translate: 0 3px;
+}
