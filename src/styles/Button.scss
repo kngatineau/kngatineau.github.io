@@ -1,0 +1,81 @@
+$green: #00b0b3d8;
+$gray: #bbbbbb;
+* {
+  font-family: 'Poppins', sans-serif; 
+}
+
+button {
+  margin: 10px;
+  outline:none;
+  height: 40px;
+  text-align: center;
+  width: 160px;
+  border-radius:40px;
+  background: #fff;
+  border: 2px solid $green;
+  color:#5d5d5d;
+  letter-spacing:1px;
+  text-shadow:0;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  font:{
+    size:14px;
+    weight:light;
+  }
+  cursor: pointer;
+  transition: all 0.25s ease;
+  &:hover {
+    color:white;
+    background: $green;
+  }
+  &:active {
+    //letter-spacing: 2px;
+    letter-spacing: 2px ;
+  }
+  &:after {
+    content:"Resume PDF";
+  }
+}
+.onclic {
+  width: 40px;
+  border-color:$gray;
+  border-width:3px;
+  font-size:0;
+  border-left-color:$green;
+  animation: rotating 2s 0.25s linear infinite;
+
+  &:after {
+    content:"";
+  }
+  &:hover {
+    color:$green;
+    background: white;
+  }
+}
+.validate {
+  font-size:13px;
+  color: white;
+  background: $green;
+  &:after {
+    font-family: 'Poppins', sans-serif; 
+    content:"\f00c";
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#button-2 {
+  width: 110px;
+  border: 2px solid #cccccc;
+}
+#button-2:hover {
+  background-color: #cccccc;
+}
+#button-2::after {
+  content: "Contact";
+}

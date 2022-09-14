@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    background-image: url("../assets/1567736.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.693);
+}
