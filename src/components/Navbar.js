@@ -43,6 +43,13 @@ function Navbar() {
               />
             Email</a>
     </div>
+    <div id="menu-container">
+    <img
+                className="menu-icon"
+                id="menu"
+                src={require("../assets/menu.png")}
+              />
+    </div>
     <div id='logo'>
         <div id='logo-img'>
           <h1 id='txt'>K</h1>

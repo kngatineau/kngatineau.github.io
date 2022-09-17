@@ -68,3 +68,36 @@
   margin-right: 2px;
   translate: 0 3px;
 }
+
+@media (max-width: 1000px) {
+  #portrait {
+    width: 300px;
+
+  }
+  #portrait, #portrait-container, #hero-section-text, #hero-section-text-container {
+    margin: auto;
+    float: none;
+    text-align: center;
+  }
+
+  #hero-section-text, #hero-section-text-container {
+    width: 340px;
+    
+  }
+  #hero-section-container {
+    height: 800px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 5rem;
+    margin-top: 1rem;
+  }
+  #hero-section-text-container {
+    display: block;
+  }
+  #title {
+    line-height: 130%;
+  }
+
+
+
+}

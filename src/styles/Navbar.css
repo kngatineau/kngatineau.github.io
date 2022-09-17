@@ -72,4 +72,30 @@ font-weight: bold;
   height: min-content;
   float: left;
 }
-  
+#menu {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  #navbar {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding-top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color: rgb(255, 255, 255);
+  }
+  #navbar-text {
+    display: none;
+  }
+  #menu {
+    display: block;
+    float: right;
+    padding-right: 2rem;
+    translate: 0 3px;
+  }
+
+}

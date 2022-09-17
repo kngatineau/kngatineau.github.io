@@ -9,3 +9,12 @@
     top: 50%;
     transform: translate(-50%, -50%);
   }
+
+  @media (max-width: 1000px) {
+    .content {
+      width: 92%;
+      height: 85vh;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+  }
