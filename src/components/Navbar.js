@@ -1,7 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/Navbar.css'
+import NavList from './NavList';
+import '../styles/NavList.css'
 
 function Navbar() {
+
+const [navMenuOpen, setNavMenuOpen] = useState(false);
+
+const toggleNavMenu = () => {
+  setNavMenuOpen(!navMenuOpen);
+}
+
 
   const onButtonClick = () => {
     fetch("Gatineau_Kaitlyn_Resume_Sept_2022.pdf").then((response) => {
@@ -43,12 +52,20 @@ function Navbar() {
               />
             Email</a>
     </div>
-    <div id="menu-container">
-    <img
-                className="menu-icon"
-                id="menu"
-                src={require("../assets/menu.png")}
-              />
+    <div className="menu-container">
+      {
+        !navMenuOpen ? 
+
+              <p id="connect" onClick={toggleNavMenu}>
+                  Connect</p>
+      : <img
+      className="menu-icon"
+      id="close"
+      onClick={toggleNavMenu}
+      src={require("../assets/close.png")}
+    />
+    }
+    <NavList isOpen={navMenuOpen}/>
     </div>
     <div id='logo'>
         <div id='logo-img'>
@@ -64,6 +81,7 @@ function Navbar() {
         </div>
     </div>
     </div>
+    
     </div>
   )
 }
