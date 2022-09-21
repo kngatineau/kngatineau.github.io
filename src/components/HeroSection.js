@@ -24,7 +24,7 @@ function HeroSection() {
         id="hero-section-container"
       >
         <div id="portrait-container">
-          <img id="portrait" src={require("../assets/p-3.jpg")} />
+          <img id="portrait" src={require("../assets/kgsunflower.jpg")} />
         </div>
         <div id="hero-section-text-container">
           <div id="hero-section-text">
