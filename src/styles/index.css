@@ -6,3 +6,12 @@ body {
     background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.693);
 }
+@media (max-width: 1000px) {
+    body{
+        background-image: none;
+        background-color: white;
+        background-attachment:inherit;
+
+    }
+
+}
