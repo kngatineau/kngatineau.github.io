@@ -11,7 +11,7 @@ function HeroSection() {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Gatineau_Kaitlyn_Resume_Sept_2022.pdf";
+        alink.download= "";
         alink.click();
       });
     });
