@@ -3,12 +3,12 @@ import '../styles/NavList.css'
 
 function NavList({ isOpen }) {
     const onButtonClick = () => {
-        fetch("Gatineau_Kaitlyn_Resume_Sept_2022.pdf").then((response) => {
+        fetch("kaitlyn_gatineau_resume_mar_2024.pdf").then((response) => {
           response.blob().then((blob) => {
             const fileURL = window.URL.createObjectURL(blob);
             let alink = document.createElement("a");
             alink.href = fileURL;
-            alink.download = "Gatineau_Kaitlyn_Resume_Sept_2022.pdf";
+            alink.download = "kaitlyn_gatineau_resume_mar_2024.pdf";
             alink.click();
           });
         });
